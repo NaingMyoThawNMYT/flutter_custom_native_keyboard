@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:horizontalGap="5dp"
+    android:keyWidth="20%p"
+    android:keyHeight="60dp"
+    android:verticalGap="5dp">
+
+    <!--    <Row>-->
+    <!--        <Key android:codes="117" android:keyLabel="Up"/>-->
+    <!--        <Key android:codes="100" android:keyLabel="Down"/>-->
+    <!--    </Row>-->
+
+    <Row>
+        <Key
+            android:codes="49"
+            android:keyEdgeFlags="left"
+            android:keyLabel="1" />
+        <Key
+            android:codes="50"
+            android:keyLabel="2" />
+        <Key
+            android:codes="51"
+            android:keyLabel="3" />
+        <Key
+            android:codes="52"
+            android:keyLabel="4" />
+        <Key
+            android:codes="53"
+            android:keyEdgeFlags="right"
+            android:keyLabel="5" />
+    </Row>
+
+    <Row>
+        <Key
+            android:codes="54"
+            android:keyEdgeFlags="left"
+            android:keyLabel="6" />
+        <Key
+            android:codes="55"
+            android:keyLabel="7" />
+        <Key
+            android:codes="56"
+            android:keyLabel="8" />
+        <Key
+            android:codes="57"
+            android:keyLabel="9" />
+        <Key
+            android:codes="48"
+            android:keyEdgeFlags="right"
+            android:keyLabel="0" />
+    </Row>
+
+    <Row>
+        <Key
+            android:codes="92"
+            android:isRepeatable="true"
+            android:keyWidth="50%p"
+            android:keyEdgeFlags="left"
+            android:keyLabel="UP" />
+        <Key
+            android:codes="93"
+            android:keyWidth="50%p"
+            android:keyEdgeFlags="right"
+            android:keyLabel="DOWN" />
+    </Row>
+
+    <Row>
+        <Key
+            android:codes="-5"
+            android:isRepeatable="true"
+            android:keyWidth="50%p"
+            android:keyEdgeFlags="left"
+            android:keyLabel="DELETE" />
+        <Key
+            android:codes="-4"
+            android:keyWidth="50%p"
+            android:keyEdgeFlags="right"
+            android:keyLabel="DONE" />
+    </Row>
+
+</Keyboard>
